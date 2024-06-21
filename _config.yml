@@ -1,1 +1,15 @@
-theme: jekyll-theme-neumorphism
+title: My Neumorphic Jekyll Site
+description: A site using a Neumorphism theme
+
+# Theme settings
+theme: Neumorphic
+paginate: 5
+
+# Other necessary settings
+markdown: kramdown
+highlighter: rouge
+
+# Add any theme-specific settings below
+neumorphic:
+  color: "#E0E5EC"
+  shadow: "rgba(0, 0, 0, 0.2)"
