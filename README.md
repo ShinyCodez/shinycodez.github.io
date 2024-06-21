@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,21 +9,24 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background: linear-gradient(to right, #d3e0ea, #d3e0ea);
+            color: #333;
         }
         header {
-            background-color: #4CAF50;
+            background-color: #007BFF;
             color: white;
             text-align: center;
-            padding: 1em 0;
+            padding: 2em 0;
         }
         nav {
             text-align: center;
-            margin: 1em 0;
+            margin: 1.5em 0;
         }
         nav a {
             margin: 0 15px;
             text-decoration: none;
-            color: #4CAF50;
+            color: #007BFF;
+            font-weight: bold;
         }
         .container {
             width: 80%;
@@ -31,19 +35,29 @@
         }
         section {
             padding: 2em 0;
-            border-bottom: 1px solid #e0e0e0;
+            border-bottom: 1px solid #ccc;
+        }
+        section h2 {
+            color: #007BFF;
         }
         footer {
             background-color: #f4f4f4;
             text-align: center;
-            padding: 1em 0;
+            padding: 1.5em 0;
             margin-top: 1em;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Hey, I'm Rafi, And Welcome to My Website (it's currently a work in progress)</h1>
+        <h1>Hey, I'm Rafi, and Welcome to My Website (it's currently a work in progress)</h1>
     </header>
     <nav>
         <a href="#about">About Me</a>
@@ -53,13 +67,13 @@
     <div class="container">
         <section id="about">
             <h2>About Me</h2>
-            <p>Hello! I'm Rafi, I like physics, coding, math, and football (the one with your foot), come join me in my coding journey!</p>
+            <p>Hello! I'm Rafi, I like physics, coding, math, and football (the one with your foot). Come join me in my coding journey!</p>
         </section>
         <section id="projects">
             <h2>Projects</h2>
             <p>Here are some of my projects:</p>
             <ul>
-                <li><a href="https://www.youtube.com/channel/UCTfL_OkPIOajXidvbWhpeww">Project 1</a>: I have a YouTube Channell which I'm growing slowly but surely</li>
+                <li><a href="https://www.youtube.com/channel/UCTfL_OkPIOajXidvbWhpeww" target="_blank">Project 1</a>: I have a YouTube channel which I'm growing slowly but surely.</li>
             </ul>
         </section>
         <section id="contact">
