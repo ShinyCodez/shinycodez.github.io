@@ -43,7 +43,7 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to My Personal Website</h1>
+        <h1>Hey, I'm Rafi, And Welcome to My Website (it's currently a work in progress)</h1>
     </header>
     <nav>
         <a href="#about">About Me</a>
@@ -53,29 +53,27 @@
     <div class="container">
         <section id="about">
             <h2>About Me</h2>
-            <p>Hello! I'm [Your Name], a [Your Profession]. I love [brief description about your hobbies, interests, and what you do].</p>
+            <p>Hello! I'm Rafi, I like physics, coding, math, and football (the one with your foot), come join me in my coding journey!</p>
         </section>
         <section id="projects">
             <h2>Projects</h2>
             <p>Here are some of my projects:</p>
             <ul>
-                <li><a href="[Link to Project 1]">Project 1</a>: Brief description of Project 1.</li>
-                <li><a href="[Link to Project 2]">Project 2</a>: Brief description of Project 2.</li>
-                <li><a href="[Link to Project 3]">Project 3</a>: Brief description of Project 3.</li>
+                <li><a href="https://www.youtube.com/channel/UCTfL_OkPIOajXidvbWhpeww">Project 1</a>: I have a YouTube Channell which I'm growing slowly but surely</li>
             </ul>
         </section>
         <section id="contact">
             <h2>Contact</h2>
             <p>You can reach me at:</p>
             <ul>
-                <li>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></li>
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn Profile</a></li>
-                <li>GitHub: <a href="https://github.com/yourprofile" target="_blank">GitHub Profile</a></li>
+                <li>Email: <a href="mailto:urafi3045@gmail.com">urafi3045@gmail.com</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/rafi-uddin-b2a1bb263/" target="_blank">LinkedIn Profile</a></li>
+                <li>GitHub: <a href="https://github.com/ShinyCodez" target="_blank">GitHub Profile</a></li>
             </ul>
         </section>
     </div>
     <footer>
-        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+        <p>&copy; 2024 Rafi Uddin. All rights reserved.</p>
     </footer>
 </body>
 </html>
