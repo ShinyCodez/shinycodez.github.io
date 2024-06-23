@@ -60,6 +60,10 @@
             align-items: center;
             padding: 2em 0;
         }
+        spline-viewer {
+            width: 100%;
+            height: 500px;
+        }
     </style>
 </head>
 <body>
@@ -77,7 +81,7 @@
             <p>Hello! I'm Rafi, I like physics, coding, math, and football (the one with your foot). Come join me in my coding journey!</p>
         </section>
         <section id="spline" class="spline-section">
-            <spline-viewer url="https://prod.spline.design/QvKVl9ccFLqYlOIk/scene.splinecode" style="width: 100%; height: 500px;"></spline-viewer>
+            <spline-viewer url="https://prod.spline.design/QvKVl9ccFLqYlOIk/scene.splinecode"></spline-viewer>
         </section>
         <section id="projects">
             <h2>Projects</h2>
@@ -100,4 +104,4 @@
         <p>&copy; 2024 Rafi Uddin. All rights reserved.</p>
     </footer>
 </body>
-</html>
+</
