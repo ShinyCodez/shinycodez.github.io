@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Website</title>
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.7.6/build/spline-viewer.js"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -11,16 +12,22 @@
             padding: 0;
             background: linear-gradient(to right, #d3e0ea, #d3e0ea);
             color: #333;
+            position: relative;
+            overflow: hidden;
         }
         header {
             background-color: #007BFF;
             color: white;
             text-align: center;
             padding: 2em 0;
+            position: relative;
+            z-index: 1;
         }
         nav {
             text-align: center;
             margin: 1.5em 0;
+            position: relative;
+            z-index: 1;
         }
         nav a {
             margin: 0 15px;
@@ -32,6 +39,8 @@
             width: 80%;
             margin: auto;
             overflow: hidden;
+            position: relative;
+            z-index: 1;
         }
         section {
             padding: 2em 0;
@@ -45,6 +54,8 @@
             text-align: center;
             padding: 1.5em 0;
             margin-top: 1em;
+            position: relative;
+            z-index: 1;
         }
         a {
             color: #007BFF;
@@ -53,9 +64,21 @@
         a:hover {
             text-decoration: underline;
         }
+        #spline-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            pointer-events: none;
+        }
     </style>
 </head>
 <body>
+    <div id="spline-background">
+        <spline-viewer url="https://prod.spline.design/QvKVl9ccFLqYlOIk/scene.splinecode"></spline-viewer>
+    </div>
     <header>
         <h1>Hey, I'm Rafi, and Welcome to My Website (it's currently a work in progress)</h1>
     </header>
