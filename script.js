@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
         mainHeader.textContent = "Welcome to My Personal Website";
         content.innerHTML = `
             <section>
-                <p>Hello! I'm [Your Name], a [Your Profession]. Welcome to my personal website.</p>
+                <p>Hello! I'm Rafi, I love physics, coding, football (the one with your foot), and much more. Welcome to my personal website.</p>
             </section>
         `;
     }
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
         mainHeader.textContent = "About Me";
         content.innerHTML = `
             <section>
-                <p>Hello! I'm [Your Name], a [Your Profession]. This page is all about me.</p>
+                <p>Hello! I'm Rafi. This page is all about me.</p>
             </section>
         `;
     }
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
         mainHeader.textContent = "Contact";
         content.innerHTML = `
             <section>
-                <p>You can reach me at <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+                <p>You can reach me at <a href="mailto:urafi3045@gmail.com">urafi3045@gmail.com</a></p>
             </section>
         `;
     }
