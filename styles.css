@@ -54,8 +54,12 @@ main {
     transition: opacity 0.5s ease;
 }
 
-.fade {
+.fade-out {
     opacity: 0;
+}
+
+.fade-in {
+    opacity: 1;
 }
 
 section {
