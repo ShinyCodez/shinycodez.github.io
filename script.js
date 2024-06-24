@@ -2,24 +2,31 @@ document.addEventListener("DOMContentLoaded", function() {
     const content = document.getElementById("content");
     const mainHeader = document.getElementById("main-header");
 
+    function fadeOutContent(callback) {
+        content.classList.add("fade-out");
+        setTimeout(() => {
+            callback();
+            content.classList.remove("fade-out");
+            content.classList.add("fade-in");
+        }, 500);
+    }
+
     function loadHome() {
         mainHeader.textContent = "Welcome to My Personal Website";
         content.innerHTML = `
             <section>
-                <p>Hello! I'm [Your Name], a [Your Profession]. Welcome to my personal website.</p>
+                <p>Hello! I'm Rafi Uddin, a rising senior in NYC. Welcome to my personal website.</p>
             </section>
         `;
-        fadeInContent();
     }
 
     function loadAbout() {
         mainHeader.textContent = "About Me";
         content.innerHTML = `
             <section>
-                <p>Hello! I'm [Your Name], a [Your Profession]. This page is all about me.</p>
+                <p>Hello! I love physics, coding, math, and football (the one with your foot). This page is all about me.</p>
             </section>
         `;
-        fadeInContent();
     }
 
     function loadProjects() {
@@ -30,44 +37,35 @@ document.addEventListener("DOMContentLoaded", function() {
                 <!-- Add project details here -->
             </section>
         `;
-        fadeInContent();
     }
 
     function loadContact() {
         mainHeader.textContent = "Contact";
         content.innerHTML = `
             <section>
-                <p>You can reach me at <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+                <p>You can reach me at <a href="mailto:urafi3045@gmail.com">urafi3045@gmail.com</a></p>
             </section>
         `;
-        fadeInContent();
-    }
-
-    function fadeInContent() {
-        content.classList.add("fade");
-        setTimeout(() => {
-            content.classList.remove("fade");
-        }, 10);
     }
 
     document.getElementById("home-link").addEventListener("click", function(event) {
         event.preventDefault();
-        loadHome();
+        fadeOutContent(loadHome);
     });
 
     document.getElementById("about-link").addEventListener("click", function(event) {
         event.preventDefault();
-        loadAbout();
+        fadeOutContent(loadAbout);
     });
 
     document.getElementById("projects-link").addEventListener("click", function(event) {
         event.preventDefault();
-        loadProjects();
+        fadeOutContent(loadProjects);
     });
 
     document.getElementById("contact-link").addEventListener("click", function(event) {
         event.preventDefault();
-        loadContact();
+        fadeOutContent(loadContact);
     });
 
     // Load the home content by default
